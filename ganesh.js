@@ -17,7 +17,8 @@ const matrix = [
     [13, 14, 15, 16]
   ]
   
-  // matrix[0].map((val, index) => matrix.map(row => row[index]).reverse())
+  let result = matrix[0].map((val, index) => matrix.map(row => row[index]).reverse())
+  console.log(result);
   
   const n = matrix.length;
     const x = Math.floor(n/ 2);
